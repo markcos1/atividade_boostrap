@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+header .container{
+    width: 100%;
+}
+body{
+    background-color: #cfc6c6;
+}
+
+header{
+    background-color: gray;
+    border-bottom: 3px solid black;
+
+}
+footer{
+    margin-top: 26px;
+    padding: 9px;
+    background-color: rgb(9, 9, 141);
+    display: inline;
+}
+.tituloum{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.titulodois{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 90px;
+    margin-top: 30px;
+    border-bottom: 3px solid rgb(61, 59, 59);
+    width: auto;
+    margin-bottom: 60px;
+}
