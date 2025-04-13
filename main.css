@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    
 
 }
 header .container{
@@ -21,11 +22,21 @@ header{
     border-bottom: 3px solid black;
 
 }
+.produto{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
 footer{
-    margin-top: 26px;
-    padding: 9px;
+    margin-top: 90px;
+    padding: 2px;
     background-color: rgb(9, 9, 141);
     display: inline;
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .tituloum{
     align-items: center;
@@ -33,13 +44,5 @@ footer{
     display: flex;
 
 }
-.titulodois{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-right: 90px;
-    margin-top: 30px;
-    border-bottom: 3px solid rgb(61, 59, 59);
-    width: auto;
-    margin-bottom: 60px;
-}
+
+
