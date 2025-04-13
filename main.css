@@ -31,6 +31,7 @@ footer{
     padding: 2px;
     background-color: rgb(9, 9, 141);
     display: inline;
+    color: #fff;
 }
 .botoes{
     display: flex;
