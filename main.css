@@ -30,7 +30,7 @@ header{
 }
 footer{
     margin-top: 90px;
-    padding: 2px;
+    padding: 1px;
     background-color: rgb(9, 9, 141);
     display: inline;
     color: #fff;
@@ -38,7 +38,16 @@ footer{
 .botoes{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    list-style-type: none;
+    align-content: space-between;
+
+}
+.botoes img{
+    height: 33px;
+    justify-content: space-between;
+    display: inline;
+    margin: 10px;
+    
 
 }
 .tituloum{
