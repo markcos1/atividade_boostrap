@@ -1,8 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 .container{
     justify-content: center;
     align-items: center;
@@ -10,9 +6,7 @@
     
 
 }
-header .container{
-    width: 100%;
-}
+
 body{
     background-color: #cfc6c6;
 }
@@ -21,6 +15,8 @@ header{
     background-color: gray;
     border-bottom: 3px solid black;
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
 
 }
 
@@ -56,5 +52,4 @@ footer{
     display: flex;
 
 }
-
 
