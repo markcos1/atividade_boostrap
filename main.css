@@ -20,10 +20,30 @@ header{
 
 }
 
+
 .produto{
     margin-top: 90px;
     margin-bottom: 90px;
 }
+.produto h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 3px solid gray;
+    
+}
+.produto article button{
+    width: 100%;
+    background-color: green;
+    border: none;
+}
+.produto h3,h6{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
 footer{
     margin-top: 90px;
     padding: 1px;
@@ -32,24 +52,28 @@ footer{
     color: #fff;
 }
 .botoes{
-    display: flex;
-    justify-content: space-between;
     list-style-type: none;
-    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 
 }
 .botoes img{
+
     height: 33px;
     justify-content: space-between;
-    display: inline;
-    margin: 10px;
+    margin-left: 3em;
     
 
 }
+
+
 .tituloum{
     align-items: center;
     justify-content: center;
     display: flex;
+    
 
 }
+
 
